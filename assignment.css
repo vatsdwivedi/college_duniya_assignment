@@ -1,0 +1,142 @@
+body{
+	font-family: roboto, sans-serif;
+}
+.card{
+	height: 58vh;
+	width: 45vw;
+	border-style: solid;
+}
+.image-card{
+	height: 35vh;
+	width: 45vw;
+	z-index: -1;
+}
+.image-fore{
+	height: 35vh;
+	width: 45vw;
+	background-color: black;
+	opacity: .6;
+	z-index: ;
+	position: absolute;
+	top:0;
+}
+.image{
+	position: relative;
+	background-color: black;
+	opacity: .8;
+	z-index: 1;
+}
+.reduced-opacity{
+	opacity: 50%;
+}
+.green{
+	color: green;
+}
+.blue{
+	color: #0278ae;
+}
+.bg-green{
+	background-color: #c6fced;
+	width: 24vw;
+	height: 5vh;
+	border-radius: 0px 50px 50px 0px;
+}
+p{
+	font-size: 14px;
+	line-height: 20px;
+
+}
+.text{
+	font-size: 18px;
+	text-align: center;
+}
+.bottom-right {
+  	position: absolute;
+  	bottom: 5px;
+  	right: 15px;
+}
+.text-white{
+	color: white;
+}
+.top-right {
+	height: 60px;
+	width: 100px;
+	border-radius: 5px;
+  	position: absolute;
+  	top: 30px;
+  	right: 15px;
+  	background-color: #f2a51a;
+}
+.bottom-left{
+	border-radius: 50px 50px 50px 50px;
+	height: 25px;
+	width: 130px;
+	background-color: #ffff;
+	position: absolute;
+	bottom: 15px;
+  	left: 15px;
+
+}
+.bottom-left-1{
+	border-radius: 50px 50px 50px 50px;
+	height: 25px;
+	width: 90px;
+	background-color: #ffff;
+	position: absolute;
+	bottom: 15px;
+  	left: 155px;
+
+}
+.text-small{
+	font-size: 12px;
+}
+.right {
+	text-align: right;
+}
+.left-div{
+	width: 15vw;
+}
+.red{
+	color: red;
+}
+.tag{
+	width: 40px;
+	height: 20px;
+	background-color: red;
+	border-radius: 3px 4px 4px 3px;
+	border-left: 1px;
+	margin-left :19px;
+	position: relative;
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-size: 22px;
+	padding: 0 10px 0 10px;
+}
+.tag:before{
+	content:"";
+	position: absolute;
+	display:block;
+	left:-19px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid red;
+	left: -9px;
+}
+.tag:after{
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	left: -1px;
+	top: 8px;
+}
+.right-div{
+	left: -50px;
+
+}
